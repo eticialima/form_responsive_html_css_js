@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>NOSSO PRIMEIRO SITE</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- js do checkbox e radio -->
+    <script src="./blink.js"></script>
+</head>
+
+<!-- Site começa aqui -->
+
+<body>
+    <div class="container">
+        <h1>Registro de Pessoas</h1>
+        <h4>Insira suas informações</h4>
+        <div>
+            <!-- Inicio do formulário -->
+            <form>
+                <!-- campos de nome e sobrenome -->
+                <div class="user-form" id="form">
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" style="text-align: center;" autocomplete="off">
+                    </div> <br>
+
+                    <div class="campo">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" style="text-align: center;" autocomplete="off">
+                    </div> <br>
+
+                    <div class="campo">
+                        <label for="idade">Idade:</label>
+                        <input type="text" name="idade" style="text-align: center;" autocomplete="off">
+                    </div> <br>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" style="text-align: center;" autocomplete="off">
+                    </div> <br>
+                </div>
+
+                <!-- Campo de atuação -->
+                <div class="centrotudo">
+                    <div>
+                        <h4>Aplicações que desenvolve?</h4>
+                    </div>
+                    <div>
+                        <div><input type="radio" name="test" blink value="Basico"></div>
+                        <div><input type="radio" name="test" blink value="backend"></div>
+                        <div><input type="radio" name="test" blink value="frontend"></div>
+                        <div><input type="radio" name="test" blink value="fullstack"></div>
+                        <div><input type="radio" name="test" blink value="Master"></div>
+
+                    </div>
+                </div><br><br><br><br><br> 
+                <!-- botão de envio -->
+                <div>
+                    <a style="text-decoration: none;" href="#" class="btn" type="submit" onclick="location.reload();location.href='Pag2.html'">Proximo</a>
+                </div>
+            </form>
+</body>
+
+</html>
